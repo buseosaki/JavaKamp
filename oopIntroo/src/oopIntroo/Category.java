@@ -2,7 +2,7 @@ package oopIntroo;
 
 public class Category {
 
-	int i;
+	int id;
 	String name;
 	
 }
