@@ -17,6 +17,8 @@ public class Main {
 		product2.setUnitPrice(16000);
 		
 		System.out.println(product2.getUnitPriceAfterDiscount());
+		
+	
 		// product2.setUnitPriceAfterDiscount çalışmıyor çünkü hesap sonucunda çıkacak. hesabı 
 		// product içinden get içine fonksiyonu yazarak yaptıracağız.
 		
@@ -34,10 +36,22 @@ public class Main {
 		for (Product product : products) {
 			System.out.println(product.name);
 		}
-			
+			*/
+		
+		Category category1 = new Category();
+		category1.setId(1);
+		category1.setName("İçecek");
+		
+		Category category2 = new Category();
+		category2.setId(2);
+		category2.setName("Yiyecek");
+		
+		System.out.println(category1.getName());
+		System.out.println(category2.getName());
+		
+		/* System.out.println(products.length);
 		
 		
-		System.out.println(products.length);
 		
 		Category category1 = new Category();
 		category1.id=1;
