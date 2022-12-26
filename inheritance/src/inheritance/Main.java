@@ -3,8 +3,17 @@ package inheritance;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		IndividualCustomer engin = new IndividualCustomer();
+		engin.customerNumber = "12456";
+		
+		CorporateCustomer hepsiBurada = new CorporateCustomer();
+		hepsiBurada.customerNumber = "78910";
+	
 
-	}
-
-}
+		CustomerManager customerManager = new CustomerManager();
+		
+		Customer[] customers = {engin, hepsiBurada};
+		
+		customerManager.addMultiple(customers);
+}}
